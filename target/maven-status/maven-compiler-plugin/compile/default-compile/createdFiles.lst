@@ -1,0 +1,7 @@
+com\pageobjects\LandingPage.class
+com\utilities\ExtentReporter.class
+com\pageobjects\AccountPage.class
+com\pageobjects\LogiPage.class
+com\listeners\Listeners.class
+com\resources\Base.class
+com\pageobjects\RegisterPage.class

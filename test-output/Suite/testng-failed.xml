@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.listeners.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="FourTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.tests.FourTest">
+        <methods>
+          <include name="closure"/>
+          <include name="fourTest"/>
+        </methods>
+      </class> <!-- com.tests.FourTest -->
+    </classes>
+  </test> <!-- FourTest(failed) -->
+  <test thread-count="5" name="TwoTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.tests.TwoTest">
+        <methods>
+          <include name="testTwo"/>
+          <include name="closure"/>
+        </methods>
+      </class> <!-- com.tests.TwoTest -->
+    </classes>
+  </test> <!-- TwoTest(failed) -->
+  <test thread-count="5" name="ThreeTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.tests.ThreeTest">
+        <methods>
+          <include name="closure"/>
+          <include name="threeTest"/>
+        </methods>
+      </class> <!-- com.tests.ThreeTest -->
+    </classes>
+  </test> <!-- ThreeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

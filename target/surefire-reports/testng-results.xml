@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-04T11:11:27 IST" name="Suite" finished-at="2023-06-04T11:13:11 IST" duration-ms="103972">
+    <groups>
+    </groups>
+    <test started-at="2023-06-04T11:11:27 IST" name="ThreeTest" finished-at="2023-06-04T11:12:58 IST" duration-ms="90447">
+      <class name="com.tests.ThreeTest">
+        <test-method signature="threeTest()[pri:0, instance:com.tests.ThreeTest@3148f668]" started-at="2023-06-04T11:11:27 IST" name="threeTest" finished-at="2023-06-04T11:12:56 IST" duration-ms="89021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- threeTest -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:com.tests.ThreeTest@3148f668]" started-at="2023-06-04T11:12:56 IST" name="closure" finished-at="2023-06-04T11:12:58 IST" duration-ms="1230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+      </class> <!-- com.tests.ThreeTest -->
+    </test> <!-- ThreeTest -->
+    <test started-at="2023-06-04T11:11:27 IST" name="LoginTest" finished-at="2023-06-04T11:13:03 IST" duration-ms="96035">
+      <class name="com.tests.LoginTest">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.tests.LoginTest@63611043]" started-at="2023-06-04T11:11:27 IST" name="openApplication" finished-at="2023-06-04T11:12:52 IST" duration-ms="84492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tests.LoginTest@63611043]" started-at="2023-06-04T11:12:52 IST" name="login" data-provider="getLoginData" finished-at="2023-06-04T11:13:02 IST" duration-ms="9860" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[akashkadari3696@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mar!2023!!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Successfull]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginTest@63611043]" started-at="2023-06-04T11:13:02 IST" name="tearDown" finished-at="2023-06-04T11:13:03 IST" duration-ms="1476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.LoginTest -->
+    </test> <!-- LoginTest -->
+    <test started-at="2023-06-04T11:11:27 IST" name="FourTest" finished-at="2023-06-04T11:13:04 IST" duration-ms="96707">
+      <class name="com.tests.FourTest">
+        <test-method signature="fourTest()[pri:0, instance:com.tests.FourTest@609db546]" started-at="2023-06-04T11:11:27 IST" name="fourTest" finished-at="2023-06-04T11:12:55 IST" duration-ms="87288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourTest -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:com.tests.FourTest@609db546]" started-at="2023-06-04T11:12:55 IST" name="closure" finished-at="2023-06-04T11:13:04 IST" duration-ms="9235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+      </class> <!-- com.tests.FourTest -->
+    </test> <!-- FourTest -->
+    <test started-at="2023-06-04T11:11:27 IST" name="TwoTest" finished-at="2023-06-04T11:13:04 IST" duration-ms="96962">
+      <class name="com.tests.TwoTest">
+        <test-method signature="testTwo()[pri:0, instance:com.tests.TwoTest@3370f42]" started-at="2023-06-04T11:11:27 IST" name="testTwo" finished-at="2023-06-04T11:12:51 IST" duration-ms="83767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:com.tests.TwoTest@3370f42]" started-at="2023-06-04T11:12:51 IST" name="closure" finished-at="2023-06-04T11:13:04 IST" duration-ms="12878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+      </class> <!-- com.tests.TwoTest -->
+    </test> <!-- TwoTest -->
+    <test started-at="2023-06-04T11:11:27 IST" name="RegisterTest" finished-at="2023-06-04T11:13:11 IST" duration-ms="103971">
+      <class name="com.tests.RegisterTest">
+        <test-method signature="register()[pri:0, instance:com.tests.RegisterTest@51133c06]" started-at="2023-06-04T11:11:27 IST" name="register" finished-at="2023-06-04T11:13:11 IST" duration-ms="103438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:com.tests.RegisterTest@51133c06]" started-at="2023-06-04T11:13:11 IST" name="closure" finished-at="2023-06-04T11:13:11 IST" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+      </class> <!-- com.tests.RegisterTest -->
+    </test> <!-- RegisterTest -->
+  </suite> <!-- Suite -->
+</testng-results>

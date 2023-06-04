@@ -1,0 +1,2 @@
+cd D:\JavaProgramsUsingEclipse\FrameworkFirstProject
+mvn clean install
